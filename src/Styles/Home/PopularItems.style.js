@@ -6,45 +6,51 @@ const DEVICE_HEIGHT = Dimensions.get('window').height;
 
 const Popularstyles = StyleSheet.create({
     ListCardView:{
-        flexDirection: 'row',
-        borderRadius: 5,
-        margin: 10,
-        padding:10,
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 1,
-        },
-        shadowOpacity: 0.20,
-        shadowRadius: 1.41,
-
-        elevation: 2,
-    },
-    ListCard: {
-        flexDirection: 'row',
         borderRadius: 5,
         margin: 5,
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 1,
-        },
-        shadowOpacity: 0.20,
-        shadowRadius: 1.41,
+        padding:10,
+        alignItems:'center',
+        borderColor:'#000',
+        borderWidth:0.2
+        
+    },
+ 
+    image:{
+        width: DEVICE_WIDTH/2.5,
+        height:DEVICE_WIDTH/2.5,
+        borderRadius:5,
+        alignItems:'flex-end'
 
-        elevation: 2,
+    },
+    ViewHeart:{
+        width: 30, 
+        height: 30, 
+        backgroundColor: '#fff', 
+        borderRadius: 30, 
+        justifyContent: 'center', 
+        alignItems: 'center'
     },
     TextViewContainer: {
-        width: ((DEVICE_WIDTH) / 3) * 2,
-        margin: 5
-
+        width: DEVICE_WIDTH/2.5
+      
     },
     title: {
-        fontSize: 18,// <-- Title 
+        fontSize: 15,// <-- Title 
         fontWeight: 'bold',// <-- Title 
     },
-    discription: {
-       color:'#808080'
+    cartContainer: {
+        flexDirection: 'row',
+        alignItems: 'center', 
+        justifyContent: 'space-between' 
+    },
+    price:{
+        fontSize:14,
+        color:'#FC4041',
+        alignItems:'baseline'
+    },
+    cartButton:{
+        backgroundColor:'#FC4041',
+        marginTop:10
     }
 
 

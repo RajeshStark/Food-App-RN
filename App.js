@@ -1,21 +1,19 @@
 import * as React from 'react';
-// import { AppRegistry } from 'react-native';
-import { Provider as PaperProvider } from 'react-native-paper';
-import HomeStack from './src/Navigation/HomeStack';
 import { NavigationContainer } from '@react-navigation/native';
-
+import { Provider as PaperProvider } from 'react-native-paper';
 import { enableScreens } from 'react-native-screens';
+
+//MyImports
+import EntryStack from './src/Navigation/Main/EntryStack';
 
 enableScreens();
 
 export default function App() {
   return (
-    <NavigationContainer>
-    <PaperProvider>
-      <HomeStack />
-    </PaperProvider>
+    <NavigationContainer >
+      <PaperProvider>
+       <EntryStack/>
+      </PaperProvider>
     </NavigationContainer>
   );
 }
-
-// AppRegistry.registerComponent('app', () => App);

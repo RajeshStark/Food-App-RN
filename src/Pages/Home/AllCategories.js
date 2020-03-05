@@ -30,7 +30,7 @@ import { ScrollView } from 'react-native-gesture-handler';
               onPress={() => this.props.navigation.navigate('CategoriyItems')}
             >
               <ImageBackground
-                source={require('../../Assets/CategoryImages/biryani.jpg')}
+                source={require('../../Assets/Home/CategoryImages/biryani.jpg')}
                 style={AllCategorystyles.imageContainer}
                 imageStyle={AllCategorystyles.imagebackground}
 
@@ -40,7 +40,7 @@ import { ScrollView } from 'react-native-gesture-handler';
             </TouchableOpacity>
 
             <ImageBackground
-              source={require('../../Assets/CategoryImages/Pickle.jpg')}
+              source={require('../../Assets/Home/CategoryImages/Pickle.jpg')}
               style={AllCategorystyles.imageContainer}
               imageStyle={AllCategorystyles.imagebackground}
 
@@ -50,16 +50,16 @@ import { ScrollView } from 'react-native-gesture-handler';
           </View>
           <View style={AllCategorystyles.rowView}>
             <ImageBackground
-              source={require('../../Assets/CategoryImages/chutney.jpg')}
+             source={require('../../Assets/Home/CategoryImages/Dosa.png')}
               style={AllCategorystyles.imageContainer}
               imageStyle={AllCategorystyles.imagebackground}
 
             >
-              <Text style={AllCategorystyles.imagetext}>Chutneys</Text>
+              <Text style={AllCategorystyles.imagetext}>Dosa</Text>
             </ImageBackground>
 
             <ImageBackground
-              source={require('../../Assets/CategoryImages/Sambar.jpg')}
+              source={require('../../Assets/Home/CategoryImages/Sambar.jpg')}
               style={AllCategorystyles.imageContainer}
               imageStyle={AllCategorystyles.imagebackground}
 
@@ -69,16 +69,16 @@ import { ScrollView } from 'react-native-gesture-handler';
           </View>
           <View style={AllCategorystyles.rowView}>
             <ImageBackground
-              source={require('../../Assets/CategoryImages/Dosa.jpeg')}
+              source={require('../../Assets/Home/CategoryImages/chutney.jpg')}
               style={AllCategorystyles.imageContainer}
               imageStyle={AllCategorystyles.imagebackground}
 
             >
-              <Text style={AllCategorystyles.imagetext}>Dosa</Text>
+              <Text style={AllCategorystyles.imagetext}>Chutneys</Text>
             </ImageBackground>
 
             <ImageBackground
-              source={require('../../Assets/CategoryImages/biryani.jpg')}
+              source={require('../../Assets/Home/CategoryImages/biryani.jpg')}
               style={AllCategorystyles.imageContainer}
               imageStyle={AllCategorystyles.imagebackground}
 
@@ -88,7 +88,7 @@ import { ScrollView } from 'react-native-gesture-handler';
           </View>
           <View style={AllCategorystyles.rowView}>
             <ImageBackground
-              source={require('../../Assets/CategoryImages/biryani.jpg')}
+              source={require('../../Assets/Home/CategoryImages/biryani.jpg')}
               style={AllCategorystyles.imageContainer}
               imageStyle={AllCategorystyles.imagebackground}
 
@@ -97,7 +97,7 @@ import { ScrollView } from 'react-native-gesture-handler';
             </ImageBackground>
 
             <ImageBackground
-              source={require('../../Assets/CategoryImages/biryani.jpg')}
+              source={require('../../Assets/Home/CategoryImages/biryani.jpg')}
               style={AllCategorystyles.imageContainer}
               imageStyle={AllCategorystyles.imagebackground}
 
